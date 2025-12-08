@@ -1,3 +1,11 @@
 body {
-  background-color: azure;
+  background-color: rgb(245, 251, 251);
+}
+label {
+  display: block;
+  margin-bottom: 15px;
+}
+input {
+  display: block;
+  margin-bottom: 5px;
 }

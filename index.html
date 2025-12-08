@@ -4,10 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
-    <title>Project Know Your Gems</title>
+    <title>Know Your Gems</title>
   </head>
   <body>
-    <h1>Welcome to Gem Search engine</h1>
+    <header>
+      <h1>Welcome to the Gem Search engine</h1>
+    </header>
+    <main>
+      <form>
+        <input
+          type="text"
+          id="zodiakSign"
+          placeholder="Your zodiak sign"
+          autofocus
+          required
+          autocomplete="off"
+        />
+        <label for="zodiakSign">Enter your zodiak sign e.g. Taurus...</label>
+
+        <input type="text" id="yearInput" placeholder="YYYY" required />
+        <label for="yearInput">Enter the year you were born e.g. 1990</label>
+        <input type="submit" />
+      </form>
+    </main>
     <footer>
       This AI project was coded by
       <a href="https://github.com/sanddot" target="_blank">Sandra Domeikiene</a
