@@ -1,11 +1,68 @@
 body {
   background-color: rgb(245, 251, 251);
 }
-label {
-  display: block;
-  margin-bottom: 15px;
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+header {
+  margin-bottom: 30px;
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  font-style: italic;
+}
+form {
+  padding: 20px;
+  background-color: rgb(228, 250, 254);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 30px auto;
+}
+a {
+  color: rgb(178, 72, 239);
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
 }
 input {
-  display: block;
-  margin-bottom: 5px;
+  padding: 14px;
+  width: 90%;
+  border-radius: 5px;
+  border: none;
+  line-height: 1.5;
+  font-size: 16px;
+}
+label {
+  margin-top: 5px;
+  font-size: 14px;
+  color: rgb(54, 52, 52);
+}
+.submit-button {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 14px auto;
+  width: 120px;
+  background-color: rgb(178, 72, 239);
+  color: rgb(228, 250, 254);
+}
+.gem-descriptions {
+  font-size: 16px;
+  background-color: rgb(228, 250, 254);
+  padding: 20px;
+  line-height: 1.5;
+  border-radius: 5px;
+}
+footer {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 30px;
 }

@@ -7,39 +7,63 @@
     <title>Know Your Gems</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to the Gem Search engine</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          id="zodiakSign"
-          placeholder="Your zodiak sign"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <label for="zodiakSign">Enter your zodiak sign e.g. Taurus...</label>
-
-        <input type="text" id="yearInput" placeholder="YYYY" required />
-        <label for="yearInput">Enter the year you were born e.g. 1990</label>
-        <input type="submit" />
-      </form>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/sanddot" target="_blank">Sandra Domeikiene</a
-      >, is
-      <a
-        href="https://github.com/sanddot/Project-know-your-gems"
-        target="_blank"
-      >
-        open sourced on GitHub</a
-      >
-      and hosted on
-      <a href="https://know-your-gems.netlify.app/" target="_blank"> Netlify</a>
-    </footer>
+    <div class="container">
+      <header>
+        <h1>Know Your Gems!</h1>
+        <h3>Powered by AI search</h3>
+      </header>
+      <main>
+        <form>
+          <div class="input-group">
+            <input
+              type="text"
+              id="zodiakSign"
+              placeholder="Your zodiak sign"
+              autofocus
+              required
+              autocomplete="off"
+            />
+            <label for="zodiakSign">Enter your zodiak sign e.g. Taurus</label>
+          </div>
+          <div class="input-group">
+            <input type="text" id="yearInput" placeholder="YYYY" required />
+            <label for="yearInput"
+              >Enter the year you were born e.g. 1990</label
+            >
+          </div>
+          <div class="input-group">
+            <input type="submit" class="submit-button" />
+          </div>
+        </form>
+        <div class="gem-descriptions">
+          A Leo born in 1996 falls under the Chinese Zodiac sign of the Fire
+          Rat. This pairing results in a personality that is typically
+          ambitious, intelligent, charming, and highly energetic, but who might
+          need help managing their intense emotions and avoiding burnout. The
+          Fire element enhances Leo's natural enthusiasm but also brings
+          intensity to the Rat's quick, clever mind.Garnet Grounding, Passion,
+          and Emotional Stability Aligns with the Fire element while providing
+          grounding. It stabilizes the Rat's quick, sometimes anxious energy and
+          enhances Leo's courage.
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/sanddot" target="_blank"
+          >Sandra Domeikiene</a
+        >, is
+        <a
+          href="https://github.com/sanddot/Project-know-your-gems"
+          target="_blank"
+        >
+          open sourced on GitHub</a
+        >
+        and hosted on
+        <a href="https://know-your-gems.netlify.app/" target="_blank">
+          Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
