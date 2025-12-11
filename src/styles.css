@@ -12,7 +12,7 @@ h1 {
   text-align: center;
   margin-bottom: 30px;
 }
-h3 {
+h4 {
   text-align: center;
   font-style: italic;
 }
@@ -40,12 +40,12 @@ input {
   border-radius: 5px;
   border: none;
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 14px;
 }
 label {
   margin-top: 5px;
   font-size: 14px;
-  color: rgb(54, 52, 52);
+  opacity: 0.7;
 }
 .submit-button {
   font-size: 16px;
@@ -69,4 +69,37 @@ footer {
   text-align: center;
   font-size: 12px;
   margin-top: 30px;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Adjust as needed */
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #333; /* Dot color */
+  border-radius: 50%;
+  margin: 0 5px; /* Spacing between dots */
+  animation: bounce 1s infinite ease-in-out;
+}
+
+.dot:nth-child(2) {
+  animation-delay: 0.2s; /* Delay for the second dot */
+}
+
+.dot:nth-child(3) {
+  animation-delay: 0.4s; /* Delay for the third dot */
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px); /* How high the dots bounce */
+  }
 }
